@@ -1,0 +1,59 @@
+.moviescard{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: gray;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    
+
+}
+.moviescard:hover{
+    background-color: white;
+    color: black;
+}
+@media(max-width: 550px){
+    .moviescard{
+        width: 46%;
+    }
+}
+.title {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+  }
+  .rate {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+  }
+  .year {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+  }
+  .image{
+    width: 15rem;
+    height: 5rem;
+    border: 2px solid ;
+    border-radius: 5px;
+  }
+  .ratestar{
+    margin-top: 15px;
+    width: 50%;
+    position: relative;
+    left: 10rem;
+  }
+  .ratestar:hover{
+    color: yellow;
+    
+  }
